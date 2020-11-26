@@ -18,6 +18,8 @@ Comando laravel dentro do cmd | composer global require laravel/installer
 E utilizar o comando php artisan migrate, para criar o seu primeiro usuario com e-mail: biel.caramatti180@gmail.com e senha 12345678.
 Caso queira alterar algum desses dados, pode-se alterar dentro da pasta Seeds dev-pro-final\database\seeds, e alterar no arquivo "UserSeeders", ou criar com essa seed mesmo e editar dentro do próprio projeto, no botão de editar dados.
 
+Crie um banco de dados dentro do phpmyadmin com o nome de login_dev_pro.
+
 Depois de seguir os passos acima. Já dentro do seu IDE, deve-se utilizar o seguinte comando para abertura do servidor: php artisan serve. E por fim, copiar e colar a URL no seu navegador de preferência
 
-O projeto está sem a base de dados, então para quem for testar, podem criar os próprios usuários e senhas depois de criar as tabelas com o comando php artisan migrate.
+O projeto está sem a base de dados, então em caso de teste, podem criar os próprios usuários e senhas depois de criar as tabelas com o comando php artisan migrate.
