@@ -15,10 +15,11 @@ Esse projeto tem a finalidade de ser um gerenciador de tarefas, onde você pode 
 
 Para visualizar o projeto, você deve ter o PHP e o Laravel instalados em seu computador (Links acima com a documentação da instalação)
 Comando laravel dentro do cmd | composer global require laravel/installer
-E utilizar o comando php artisan migrate, para criar o seu primeiro usuario com e-mail: biel.caramatti180@gmail.com e senha 12345678.
-Caso queira alterar algum desses dados, pode-se alterar dentro da pasta Seeds dev-pro-final\database\seeds, e alterar no arquivo "UserSeeders", ou criar com essa seed mesmo e editar dentro do próprio projeto, no botão de editar dados.
+Composer update
+E utilizar o comando: php artisan migrate para criar as tabelas no banco de dados.
+Depois basta utilizar o último comando php artisan serve
 
-Crie um banco de dados dentro do phpmyadmin com o nome de login_dev_pro.
+Crie um banco de dados dentro do phpmyadmin com o nome de login_dev_pro, ou o que preferir se quiser alterar na .env.
 
 Depois de seguir os passos acima. Já dentro do seu IDE, deve-se utilizar o seguinte comando para abertura do servidor: php artisan serve. E por fim, copiar e colar a URL no seu navegador de preferência
 
