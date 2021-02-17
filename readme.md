@@ -8,6 +8,8 @@
 </p>
 
 ## Sobre o projeto
+Importante ressaltar que se trata de um projeto que utiliza a versão 5.8 do Laravel, sendo incompatível com a versão 8.0.2 do PHP.
+A versão do PHP utilizada foi a 7.4.9
 
 Esse projeto tem a finalidade de ser um gerenciador de tarefas, onde você pode criar o que foi feito, e ainda tem tratamento de hierarquia, onde o usuário administrador pode visualizar tudo o que foi cadastrado, e o usuário não administrador visualiza apenas o que está no nome dele. Fiz também uma página para visualização dos serviços que o usuário atual atribuiu para algum outro, se houver. Mas que não permite a edição de nenhum dado da tarefa. Apenas o usuário correspondente ao serviço cadastrado pode alterar.
 
