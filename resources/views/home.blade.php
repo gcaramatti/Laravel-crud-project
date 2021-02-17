@@ -48,17 +48,20 @@
                                         </td>
 
                                         <td>
-                                            <a href="{{ route('ServicosReal.edit', [$servicosLista]) }}"
-                                                class="btn btn-warning fa fa-edit" title="Editar registro"></a>
+                                            <div style="display: flex;">
+                                                <a href="{{ route('ServicosReal.edit', [$servicosLista]) }}"
+                                                    class="btn btn-warning fa fa-edit" style="margin-right: 10px;"
+                                                    title="Editar registro"></a>
 
 
-                                            <form method="POST" id="frm-delete-{{ $servicosLista->id }}"
-                                                action="{{ route('ServicosReal.destroy', $servicosLista->id) }}">
-                                                @csrf
-                                                @method("DELETE")
-                                            </form>
-                                            <a class="btn btn-danger apagar-registro" data-id="{{ $servicosLista->id }}"
-                                                href="#"><i class="fa fa-trash"></i></a>
+                                                <form method="POST" id="frm-delete-{{ $servicosLista->id }}"
+                                                    action="{{ route('ServicosReal.destroy', $servicosLista->id) }}">
+                                                    @csrf
+                                                    @method("DELETE")
+                                                </form>
+                                                <a class="btn btn-danger apagar-registro" data-id="{{ $servicosLista->id }}"
+                                                    href="#"><i class="fa fa-trash"></i></a>
+                                            </div>
                                         </td>
                                     </tr>
                                 @empty
