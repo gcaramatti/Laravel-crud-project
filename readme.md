@@ -15,10 +15,10 @@ Esse projeto tem a finalidade de ser um gerenciador de tarefas, onde você pode 
 
 ## Como visualizar
 
-Para visualizar o projeto, você deve ter o PHP e o Laravel instalados em seu computador (Links acima com a documentação da instalação)
-Comando laravel dentro do cmd | composer global require laravel/installer
-Composer update
-E utilizar o comando: php artisan migrate para criar as tabelas no banco de dados.
+Para visualizar o projeto, você deve ter o PHP e o Laravel instalados em seu computador (Links acima com a documentação da instalação)<br>
+Comando laravel dentro do cmd | composer global require laravel/installer<br>
+Composer update<br>
+E utilizar o comando: php artisan migrate para criar as tabelas no banco de dados.<br>
 Depois basta utilizar o último comando php artisan serve
 
 Crie um banco de dados dentro do phpmyadmin com o nome de login_dev_pro, ou o que preferir se quiser alterar na .env.
